@@ -1,10 +1,10 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Reviews from './components/reviews/Reviews';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import Sliders from './components/sliderContent/Sliders';
-import {data, responsive} from './reviewData';
+// import Carousel from 'react-multi-carousel';
+// import 'react-multi-carousel/lib/styles.css';
+// import Sliders from './components/sliderContent/Sliders';
+// import {data, responsive} from './reviewData';
 import Home from './components/home/Home';
 import Blog from './components/blog/Blog';
 import Featured from './components/featured/Featured';
@@ -17,9 +17,9 @@ import Footer from './components/footer/Footer';
 
 function App() {
 
-    const slider=data.map(item=>(
-      <Sliders name={item.name} star={item.star} desc={item.desc} profile={item.profile} iconTick={item.iconTick} title={item.title} icon={item.icon} tagline={item.tagline} subtag={item.subtag} />
-    ))
+    // const slider=data.map(item=>(
+    //   <Sliders name={item.name} star={item.star} desc={item.desc} profile={item.profile} iconTick={item.iconTick} title={item.title} icon={item.icon} tagline={item.tagline} subtag={item.subtag} />
+    // ))
 
 
   return (
@@ -30,9 +30,9 @@ function App() {
       <Featured />
       <div className="carosel">
       <Reviews />
-      <Carousel showDots={true} infinite={true} responsive={responsive}>
-        {slider}
-      </Carousel>
+      // <Carousel showDots={true} infinite={true} responsive={responsive}>
+      //   {slider}
+      // </Carousel>
       </div>
       <Services />
       <Build />
