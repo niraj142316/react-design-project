@@ -10,7 +10,7 @@ import pdfImg from '../../assets/pdf2.png';
 
 const Home = () => {
   const [textButton, setTextButton] = useState('BuddyHost');
-  const items = ["BuddyHost","BuddyHost", "Options2", "Options3", "Options4", "Options5"];
+  const items = ["BuddyHost", "Options2", "Options3", "Options4", "Options5"];
 
   const handleItemClick = (item) => {
     setTextButton(item);
