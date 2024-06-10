@@ -28,10 +28,12 @@ function App() {
       <Home />
       <Blog />
       <Featured />
+      <div className="carosel">
       <Reviews />
       <Carousel showDots={true} infinite={true} responsive={responsive}>
         {slider}
       </Carousel>
+      </div>
       <Services />
       <Build />
       <Graphic />
